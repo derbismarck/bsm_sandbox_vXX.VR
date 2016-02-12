@@ -30,10 +30,10 @@ class Header
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-onLoadName = "*** Insert mission name here. ***";
+onLoadName = "SANDBOX v0.1";
 onLoadMission = "Made with Nooice WL";
-author = "*** Insert mission author name here. ***";
-loadScreen = "loadLogo.jpg";
+author = "Bismarck";
+//loadScreen = "loadLogo.jpg";
 
 // ============================================================================================
 
@@ -272,6 +272,32 @@ class Params
 		code = "f_param_headlessClient = %1";
 	};
 
+	class bsm_param_bluforFaction
+	{
+		title = "BLUFOR Faction";
+		values[] = {"NATO","FIA","CDF","USARMY_UCP","USARMY_OCP","USARMY_1959","USARMY_10TH_MTN_1993","USARMY_DELTA_1993","USARMY_WDL_1995","GHOST_RECON_2008","IDF_2010","BW_1","BW_2","GERMAN_SF","FINNISH_ARMY","SWAT","FRENCH_ARMY_WNT","FRENCH_ARMY_WDL","FUTURE_ARMY_2075"};
+		texts[] = {"NATO [NONE]","FIA [NONE]","CDF [@RHS,@LOP,@IBR]","US Army UCP [@RHS,@HLC]","US ARMY OCP [@RHS,@HLC]","US ARMY 1959 [@HLC,@LOP,@MNP]","US Army 10th Mountain [@RHS,@HLC,@MNP]","US Army Delta [@HLC,@TRYK]","US Army Woodland [@RHS,@HLC,@MNP,@LOP,@TRYK]","Ghost Recon [@RHS,@HLC,@TRYK]","Israeli Defense Force [@RHS,@HLC,@MNP]","Bundeswehr [@CUP,@RHS,@HLC,@MNP,@TRYK]","Bundeswehr [@HLC,@RHS,@MNP]","German SF [@HLC,@MNP]","Finnish Army [@HLC,@MNP]","SWAT [@RHS,@HLC,@TRYK]","French Army Winter [@R3F,@HLC,@RHS]","French Army Woodland [@R3F,@HLC,@RHS]","Future Army 2075 [@HLC,@TRYK]"};
+		default = "USARMY_UCP";
+		code = "bsm_param_bluforFaction = %1";
+	};
+
+	class bsm_param_opforFaction
+	{
+		title = "OPFOR Faction";
+		values[] = {"OPFOR_CSAT","OPFOR_VDV_EMR","OPFOR_VDV_FLORA","OPFOR_VDV_MFLORA","OPFOR_SLA","OPFOR_SOVIET_DESERT","OPFOR_RUSSIAN_AIR_ASSAULT","OPFOR_PLA","OPFOR_SYRIAN_ARMY"};
+		texts[] = {"CSAT [NONE]","VDV EMR [@RHS]","VDV Flora [@RHS]","VDV Mountain Flora [@RHS]","Sahrani Liberation Army [@RHS,@IBR,@HLC,@LOP]","Soviet Army Desert [@RHS,@HLC,@LOP,@MNP]","Russian Air Assault [@RHS,@HLC,@MNP,@LOP]","People's Liberation Army [@RHS,@MNP]","Syrian Army [@RHS,@TRYK]"};
+		default = "OPFOR_VDV_FLORA";
+		code = "bsm_param_opforFaction = %1";
+	};
+
+	class bsm_param_indFaction
+	{
+		title = "INDFOR Faction";
+		values[] = {"INDFOR_AAF","INDFOR_GREEK_INS","INDFOR_AFGHAN_MILITIA","INDFOR_AFRICAN_MILITIA","INDFOR_PMC","INDFOR_INS","INDFOR_PLA"};
+		texts[] = {"AAF [NONE]","Greek Insurgents [@HLC,@RHS,@TRYK]","Afghan Militia [@RHS,@IBR,@LOP,@HLC]","African Militia [@RHS,@IBR,@LOP,@HLC]","Private Military Company [@RHS]","Insurgents [@RHS,@IBR,@HLC]","People's Liberation Army [@MNP]"};
+		default = "INDFOR_PMC";
+		code = "bsm_param_indFaction = %1";
+	};
 
 // ============================================================================================
 
