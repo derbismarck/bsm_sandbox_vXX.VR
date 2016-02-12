@@ -1,4 +1,4 @@
-class CfLoadouts {
+class CfgLoadouts {
 
     #define MEDICAL_MODE_BASIC 1
     #define MEDICAL_MODE_ADVANCED 2
