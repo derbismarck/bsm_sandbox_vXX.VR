@@ -37,61 +37,61 @@ class CfgLoadouts {
     // --- BLUFOR --- //
     // -------------- //
 
-    class BLUFOR_NATO { //@nothing
+    class BLUFOR_1 { //@nothing
         #include "Loadouts\customFactions\BLUFOR\NATO\bluefor_standard.hpp"
     };
-    class BLUFOR_FIA {  //@nothing
+    class BLUFOR_2 {  //@nothing
         #include "Loadouts\customFactions\BLUFOR\FIA\bluefor_standard.hpp"
     };
-    class BLUFOR_CDF {  //@rhs, @lop, @ibr
+    class BLUFOR_3 {  //@rhs, @lop, @ibr
         #include "Loadouts\customFactions\BLUFOR\CDF\bluefor_standard.hpp"
     };
-    class BLUFOR_USARMY_UCP {   //@rhs, @hlc
+    class BLUFOR_4 {   //@rhs, @hlc
         #include "Loadouts\customFactions\BLUFOR\USA (Army 2014)\UCP\bluefor_standard.hpp"
     };
-    class BLUFOR_USARMY_OCP {   //@rhs, @hlc
+    class BLUFOR_5 {   //@rhs, @hlc
         #include "Loadouts\customFactions\BLUFOR\USA (Army 2014)\OCP\bluefor_standard.hpp"
     };
-    class BLUFOR_USARMY_1959 {  //@hlc, @lop, @mnp
+    class BLUFOR_6 {  //@hlc, @lop, @mnp
         #include "Loadouts\customFactions\BLUFOR\1959 US Army\bluefor_standard.hpp"
     };
-    class BLUFOR_USARMY_10TH_MTN_1993 { //@rhs, @hlc, @mnp
+    class BLUFOR_7 { //@rhs, @hlc, @mnp
         #include "Loadouts\customFactions\BLUFOR\1993 US Army 10th Mountain\bluefor_standard.hpp"
     };
-    class BLUFOR_USARMY_DELTA_1993 {    //@hlc, @tryk,
+    class BLUFOR_8 {    //@hlc, @tryk,
         #include "Loadouts\customFactions\BLUFOR\1993 US Army Delta - Stealth\bluefor_standard.hpp"
     };
-    class BLUFOR_USARMY_WDL_1995 {  //@rhs, @hlc, @mnp, @lop, @tryk
+    class BLUFOR_9 {  //@rhs, @hlc, @mnp, @lop, @tryk
         #include "Loadouts\customFactions\BLUFOR\1995 US Army Woodland\bluefor_standard.hpp"
     };
-    class BLUFOR_GHOST_RECON_2008 { //@rhs, @hlc, @tryk
+    class BLUFOR_10 { //@rhs, @hlc, @tryk
         #include "Loadouts\customFactions\BLUFOR\2008 Ghost Recon\bluefor_standard.hpp"
     };
-    class BLUFOR_IDF_2010 { //@rhs, @hlc, @mnp
+    class BLUFOR_11 { //@rhs, @hlc, @mnp
         #include "Loadouts\customFactions\BLUFOR\2010 Israeli Defense Force\bluefor_standard.hpp"
     };
-    class BLUFOR_BW_1 { //@cup, @rhs, @hlc, @mnp, @tryk
+    class BLUFOR_12 { //@cup, @rhs, @hlc, @mnp, @tryk
         #include "Loadouts\customFactions\BLUFOR\2012 German Bundeswehr Army (NON-BW)\bluefor_standard.hpp"
     };
-    class BLUFOR_BW_2 { //@hlc, @rhs, @mnp
+    class BLUFOR_13 { //@hlc, @rhs, @mnp
         #include "Loadouts\customFactions\BLUFOR\2012 German Bundeswehr SF\bluefor_standard.hpp"
     };
-    class BLUFOR_GERMAN_SF {    //@hlc, @mnp
+    class BLUFOR_14 {    //@hlc, @mnp
         #include "Loadouts\customFactions\BLUFOR\2012 German Desert SF\bluefor_standard.hpp"
     };
-    class BLUFOR_FINNISH_ARMY { //@hlc, @mnp
+    class BLUFOR_15 { //@hlc, @mnp
         #include "Loadouts\customFactions\BLUFOR\2014 Finnish Army\bluefor_standard.hpp"
     };
-    class BLUFOR_SWAT { //@rhs, @hlc, @tryk
+    class BLUFOR_16 { //@rhs, @hlc, @tryk
         #include "Loadouts\customFactions\BLUFOR\2015 FBI SWAT\bluefor_standard.hpp"
     };
-    class BLUFOR_FRENCH_ARMY_WNT {  //@r3f, @hlc, @rhs
+    class BLUFOR_17 {  //@r3f, @hlc, @rhs
         #include "Loadouts\customFactions\BLUFOR\2015 French Army (Winter)\bluefor_standard.hpp"
     };
-    class BLUFOR_FRENCH_ARMY_WDL {  //@r3f, @hlc, @rhs
+    class BLUFOR_18 {  //@r3f, @hlc, @rhs
         #include "Loadouts\customFactions\BLUFOR\2015 French Army (Woodland)\bluefor_standard.hpp"
     };
-    class BLUFOR_FUTURE_ARMY_2075 { //@hlc, @tryk
+    class BLUFOR_19 { //@hlc, @tryk
         #include "Loadouts\customFactions\BLUFOR\2075 Future Army\bluefor_standard.hpp"
     };
 
@@ -99,31 +99,31 @@ class CfgLoadouts {
     // --- OPFOR --- //
     // ------------- //
 
-    class OPFOR_CSAT {  //@nothing
+    class OPFOR_1 {  //@nothing
         #include "Loadouts\customFactions\OPFOR\CSAT\opfor_standard.hpp"
     };
-    class OPFOR_VDV_EMR {   //@rhs
+    class OPFOR_2 {   //@rhs
         #include "Loadouts\customFactions\OPFOR\Russia (VDV)\EMR\opfor_standard.hpp"
     };
-    class OPFOR_VDV_FLORA {   //@rhs
+    class OPFOR_3 {   //@rhs
         #include "Loadouts\customFactions\OPFOR\Russia (VDV)\Flora\opfor_standard.hpp"
     };
-    class OPFOR_VDV_MFLORA {   //@rhs
+    class OPFOR_4 {   //@rhs
         #include "Loadouts\customFactions\OPFOR\Russia (VDV)\Mountain Flora\opfor_standard.hpp"
     };
-    class OPFOR_SLA {   //@rhs, @ibr, @hlc, @lop
+    class OPFOR_5 {   //@rhs, @ibr, @hlc, @lop
         #include "Loadouts\customFactions\OPFOR\SLA\opfor_standard.hpp"
     };
-    class OPFOR_SOVIET_DESERT { //@rhs, @hlc, @lop, @mnp
+    class OPFOR_6 { //@rhs, @hlc, @lop, @mnp
         #include "Loadouts\customFactions\OPFOR\1980 Soviet Desert\opfor_standard.hpp"
     };
-    class OPFOR_RUSSIAN_AIR_ASSAULT {   //@rhs, @hlc, @mnp, @lop
+    class OPFOR_7 {   //@rhs, @hlc, @mnp, @lop
         #include "Loadouts\customFactions\OPFOR\1990 Russian Air-Assault\opfor_standard.hpp"
     };
-    class OPFOR_PLA {   //@rhs, @mnp
+    class OPFOR_8 {   //@rhs, @mnp
         #include "Loadouts\customFactions\OPFOR\2012 PLA China\opfor_standard.hpp"
     };
-    class OPFOR_SYRIAN_ARMY {   //@rhs, @tryk
+    class OPFOR_9 {   //@rhs, @tryk
         #include "Loadouts\customFactions\OPFOR\2013 SAA Syrian Army\opfor_standard.hpp"
     };
 
@@ -131,25 +131,25 @@ class CfgLoadouts {
     // --- INDFOR --- //
     // -------------- //
 
-    class INDFOR_AAF {  //@nothing
+    class INDFOR_1 {  //@nothing
         #include "Loadouts\customFactions\INDEPENDENT\AAF\indfor_standard.hpp"
     };
-    class INDFOR_GREEK_INS {    //@hlc, @rhs, @tryk
+    class INDFOR_2 {    //@hlc, @rhs, @tryk
         #include "Loadouts\customFactions\INDEPENDENT\2015 Greek Insurgents\indfor_standard.hpp"
     };
-    class INDFOR_AFGHAN_MILITIA {   //@rhs, @ibr, @lop, @hlc
+    class INDFOR_3 {   //@rhs, @ibr, @lop, @hlc
         #include "Loadouts\customFactions\INDEPENDENT\Afghan Militia\indfor_standard.hpp"
     };
-    class INDFOR_AFRICAN_MILITIA {  //@rhs, @ibr, @hlc, @lop
+    class INDFOR_4 {  //@rhs, @ibr, @hlc, @lop
         #include "Loadouts\customFactions\INDEPENDENT\African Militia\indfor_standard.hpp"
     };
-    class INDFOR_PMC {  //@rhs
+    class INDFOR_5 {  //@rhs
         #include "Loadouts\customFactions\INDEPENDENT\Contractors\indfor_standard.hpp"
     };
-    class INDFOR_INS {  //@rhs, @ibr, @hlc
+    class INDFOR_6 {  //@rhs, @ibr, @hlc
         #include "Loadouts\customFactions\INDEPENDENT\Insurgents\indfor_standard.hpp"
     };
-    class INDFOR_PLA {  //@mnp
+    class INDFOR_7 {  //@mnp
         #include "Loadouts\customFactions\INDEPENDENT\People's Liberation Army (Modern)\indfor_standard.hpp"
     };
 };
